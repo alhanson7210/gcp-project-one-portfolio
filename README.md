@@ -2,9 +2,9 @@
 
 
 <!-- TODO: Insert the link in between the parenthesis -->
-👋  Hi! I'm Lenz Paul. I'm a programmer from [Vancouver, Canada](https://www.google.com/maps/place/Vancouver,+BC/@49.2576508,-123.2639868,11z/data=!3m1!4b1!4m5!3m4!1s0x548673f143a94fb3:0xbb9196ea9b81f38b!8m2!3d49.2827291!4d-123.1207375?hl=en).  
+👋  Hi! I'm Alex Hanson. I'm a programmer from [Los Angeles, United States](https://www.google.com/maps/place/Los+Angeles,+CA/@34.0201613,-118.6919205,10z/data=!3m1!4b1!4m5!3m4!1s0x80c2c75ddc27da13:0xe22fdf6f254608f4!8m2!3d34.0522342!4d-118.2436849).  
 
-This is the repository for [my portfolio](https://lenzpaul.dev/). 
+This is the repository for [my portfolio](#). 
 
 <br>
 
@@ -28,11 +28,11 @@ The variables are:
 - location
 
 ## Folder structure
-- Templated html files are located in `templates/`
-- App engine configuration is located in `app.yaml` 
-- The Flask code is located in `main.py`
-- Images are located in `static/images/`
-- My resume is located in `static/static/general_swe_resume_lenz_paul_nov_2021.pdf`
+- Templated html files are located in `./templates/`
+- App engine configuration is located in `./app.yaml` 
+- The Flask code is located in `./main.py`
+- Images are located in `./static/images/`
+- My resume is located in `./General_Hanson_Alex_2021_Resume.pdf`
 
 ## Deployment
 To deploy this app **live**:
@@ -62,6 +62,10 @@ From a local machine:
     ```
 - Run the app:
     ```
-    python main.py
+    python main.py 
     ```
-    The url for the app will be displayed in the terminal (e.g.  Running on http://127.0.0.1:5000/).
+    The url for the app will be displayed in the terminal (e.g.  Running on http://127.0.0.1:5000/ and ctrl + c to stop).
+- Deactivate the virtual environment:
+    ```
+    deactivate
+    ```
